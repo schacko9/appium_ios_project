@@ -1,0 +1,1 @@
+open -a Simulator --args -CurrentDeviceUDID AACCB25B-2AD3-4B6C-9A56-C0139522454A

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="113336" started-at="2022-05-09T11:04:47 EDT" finished-at="2022-05-09T11:06:40 EDT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="113336" started-at="2022-05-09T11:04:47 EDT" finished-at="2022-05-09T11:06:40 EDT">
+      <class name="Tests.UIKitCatalogTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.UIKitCatalogTest@1a3869f4]" name="setup" is-config="true" duration-ms="80342" started-at="2022-05-09T11:04:47 EDT" finished-at="2022-05-09T11:06:07 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="AlertViewsTest()[pri:0, instance:Tests.UIKitCatalogTest@1a3869f4]" name="AlertViewsTest" duration-ms="6650" started-at="2022-05-09T11:06:07 EDT" finished-at="2022-05-09T11:06:14 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AlertViewsTest -->
+        <test-method status="PASS" signature="WebViewTest()[pri:0, instance:Tests.UIKitCatalogTest@1a3869f4]" name="WebViewTest" duration-ms="8420" started-at="2022-05-09T11:06:14 EDT" depends-on-methods="Tests.UIKitCatalogTest.AlertViewsTest" finished-at="2022-05-09T11:06:22 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebViewTest -->
+        <test-method status="PASS" signature="PickerViewTest()[pri:0, instance:Tests.UIKitCatalogTest@1a3869f4]" name="PickerViewTest" duration-ms="3443" started-at="2022-05-09T11:06:22 EDT" depends-on-methods="Tests.UIKitCatalogTest.WebViewTest" finished-at="2022-05-09T11:06:26 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PickerViewTest -->
+        <test-method status="PASS" signature="SlidersTest()[pri:0, instance:Tests.UIKitCatalogTest@1a3869f4]" name="SlidersTest" duration-ms="2779" started-at="2022-05-09T11:06:26 EDT" depends-on-methods="Tests.UIKitCatalogTest.PickerViewTest" finished-at="2022-05-09T11:06:29 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SlidersTest -->
+        <test-method status="PASS" signature="SteppersTest()[pri:0, instance:Tests.UIKitCatalogTest@1a3869f4]" name="SteppersTest" duration-ms="6167" started-at="2022-05-09T11:06:29 EDT" depends-on-methods="Tests.UIKitCatalogTest.SlidersTest" finished-at="2022-05-09T11:06:35 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SteppersTest -->
+        <test-method status="PASS" signature="SwitchesTest()[pri:0, instance:Tests.UIKitCatalogTest@1a3869f4]" name="SwitchesTest" duration-ms="3446" started-at="2022-05-09T11:06:35 EDT" depends-on-methods="Tests.UIKitCatalogTest.SteppersTest" finished-at="2022-05-09T11:06:38 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SwitchesTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Tests.UIKitCatalogTest@1a3869f4]" name="teardown" is-config="true" duration-ms="1922" started-at="2022-05-09T11:06:38 EDT" finished-at="2022-05-09T11:06:40 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Tests.UIKitCatalogTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
